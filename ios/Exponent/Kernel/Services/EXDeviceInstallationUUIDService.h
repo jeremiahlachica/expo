@@ -8,6 +8,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 // A kernel service allowing versioned expo-constants to access device installation UUID
+__deprecated_msg("The installation ID API is deprecated and will be removed with SDK39")
 @interface EXDeviceInstallationUUIDService : NSObject <ABI37_0_0EXConstantsDeviceInstallationUUIDManager, ABI38_0_0EXConstantsDeviceInstallationUUIDManager, ABI39_0_0EXConstantsDeviceInstallationUUIDManager>
 
 @end
