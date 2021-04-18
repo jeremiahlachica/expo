@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     ss.preserve_paths = "Exponent/**/*.{h,m,mm,cpp}"
     ss.exclude_files = "Exponent/Supporting/**", "Exponent/Versioned/Optional/**/*.{h,m}"
 
-    ss.dependency 'Amplitude', '~> 6.0.0'
+    # ss.dependency 'Amplitude', '~> 6.0.0'
     ss.dependency 'CocoaLumberjack', '~> 3.5.3'
     ss.dependency 'GoogleMaps', '~> 3.3'
     ss.dependency 'Google-Maps-iOS-Utils', '~> 2.1.0'
